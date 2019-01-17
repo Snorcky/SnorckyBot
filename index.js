@@ -7,7 +7,7 @@ bot.on('ready', function(){
     console.log("Je suis connecté !")
 })
 
-bot.login('NTM1MDI4MzUwNjMzMzc3Nzky.DyEwAw.xm9yTBULLVblgZIeR1IQzPczQxc')
+bot.login('process.env.TOKEN')
 
 bot.on('ready', function(){
     bot.user.setGame('En cours de développement').catch(console.error)
